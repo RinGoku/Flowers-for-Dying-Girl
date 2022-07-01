@@ -1,6 +1,27 @@
 
 *start
 
+
+[macro name="lr"]
+[l][r]
+[endmacro]
+[macro name="c"]
+[cm]
+[endmacro]
+[macro name="lcm"]
+[l][cm]
+[endmacro]
+[macro name="lc"]
+[l][cm]
+[endmacro]
+
+;テーマ適用マクロ
+[macro name="theme_apply"]
+[plugin name="theme_kopanda_13"]
+[add_theme_button]
+[layopt layer="message0" visible="true"]
+[endmacro]
+
 ;背景変更マクロ　storage と time を指定する
 [macro name="back"]
 
