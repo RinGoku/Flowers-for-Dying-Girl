@@ -1,20 +1,5 @@
 
 *start
-
-
-[macro name="lr"]
-[l][r]
-[endmacro]
-[macro name="c"]
-[cm]
-[endmacro]
-[macro name="lcm"]
-[l][cm]
-[endmacro]
-[macro name="lc"]
-[l][cm]
-[endmacro]
-
 ;テーマ適用マクロ
 [macro name="theme_apply"]
 [plugin name="theme_kopanda_13"]
